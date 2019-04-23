@@ -1,0 +1,12 @@
+#
+# file create by liunianliang for ZQL1626-1175,2017.12.11
+#
+
+config HQ_ABOOT_UART
+	bool "Enable HQ ABOOT UART LOG"
+        default y
+	help
+	  CONFIG_HQ_ABOOT_UART will create proc/aboot_uart to record uart log before kernel.
+
+	  If unsure, say N.
+
